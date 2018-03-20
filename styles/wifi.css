@@ -112,6 +112,10 @@ body .form .description {
     display: flex;
     flex-direction: column;
   }
+  body hr {
+    margin: 7px;
+    padding: 0;
+  }
   body .logo {
     width: 117px;
     height: 25px;
