@@ -1,0 +1,173 @@
+/**
+ * date: 2018-03-20 9:28
+ * auth: XuQiang
+**/
+
+@font-face {
+  font-family: PingFang-SC-Light;
+  src: url("../font-size/PingFangLight.ttf");
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  height: 100vh;
+  background: url("../images/bg_pc.png") no-repeat;
+  background-size: 100% 100%;
+  display: flex;
+  flex-direction: column;
+  font-family: PingFang-SC-Light;
+
+  .logo {
+    margin-left: 200px;
+    margin-top: 30px;
+    width: 233px;
+    height: 49px;
+    background: url("../images/PC_logo.png") no-repeat;
+  }
+  .form {
+    margin-top: 131px;
+    margin-left: 200px;
+    width: 360px;
+    height: 422px;
+    background: rgba(0, 0, 0, 0.6);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 38px;
+
+    .title {
+      background: url("../images/JAGUARLANDROVER_PC.png") no-repeat;
+      width: 244px;
+      height: 16px;
+      margin-top: 40px;
+    }
+
+    > hr {
+      background-color: rgba(255, 255, 255, 0.7);
+      width: 100%;
+      height: 1px;
+      border: none;
+    }
+
+    input {
+      border: none;
+      background: none;
+      width: 100%;
+      outline: none;
+      font-size: 18px;
+      color: #ffffff;
+      &::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+        color: #ffffff;
+      }
+      &::-moz-placeholder { /* Firefox 19+ */
+        color: #ffffff;
+      }
+      &:-ms-input-placeholder { /* IE 10+ */
+        color: #ffffff;
+      }
+      &:-moz-placeholder { /* Firefox 18- */
+        color: #ffffff;
+      }
+    }
+    .number {
+      margin-top: 60px;
+      text-align: center;
+      margin-bottom: 10px;
+    }
+
+    .code {
+      display: flex;
+      justify-content: space-between;
+      width: 100%;
+      margin: 14px 0;
+      > button {
+        width: 80px;
+        height: 30px;
+        font-size: 16px;
+        color: #666666;
+      }
+      > input {
+        margin-left: 12px;
+      }
+    }
+
+    .login {
+      margin-top: 62px;
+      width: 100%;
+      height: 42px;
+      font-size: 18px;
+      color: #666666;
+    }
+
+    .description {
+      margin-top: 16px;
+      color: #ffffff;
+      font-size: 16px;
+      line-height: 24px;
+      padding: 0 12px;
+    }
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  body {
+    background: url("../images/bg_phone@3x.png") no-repeat;
+    background-size: 100%;
+    padding: 38px 60px;
+    height: unset;
+    display: flex;
+    flex-direction: column;
+    .logo {
+      margin: unset;
+      width: 100%;
+      height: 74px;
+      background: url("../images/logo@3x.png") no-repeat;
+    }
+
+    .form {
+      width: unset;
+      margin-left: unset;
+      height: 780px;
+      margin-top: 111px;
+      padding: 38px 60px;
+      .title {
+        background: url("../images/JAGUARLANDROVER@3x.png");
+        width: 653px;
+        height: 42px;
+        margin-top: 48px;
+      }
+      input {
+        font-size: 48px;
+      }
+      .number {
+        margin-top: 102px;
+      }
+      .code {
+        margin: 48px 0 24px 0;
+        > button {
+          width: 200px;
+          height: 70px;
+          font-size: 48px;
+        }
+      }
+      .login {
+        margin-top: 78px;
+        font-size: 54px;
+        height: 120px;
+      }
+      .description {
+        margin-top: 24px;
+        font-size: 38px;
+        line-height: 1.2;
+        padding: 0 28px;
+      }
+    }
+
+    button {
+      border-radius: 0;
+      -webkit-appearance : none;
+      background-color: #ffffff;
+    }
+  }
+}
