@@ -108,54 +108,57 @@ body .form .description {
   body {
     background: url("../images/bg_phone@3x.png") no-repeat;
     background-size: 100%;
-    padding: 38px 60px;
-    height: unset;
+    height: 100%;
     display: flex;
     flex-direction: column;
   }
   body .logo {
-    margin: unset;
-    width: 100%;
-    height: 74px;
+    width: 117px;
+    height: 25px;
     background: url("../images/logo@3x.png") no-repeat;
+    background-size: 117px 25px;
+    margin-top: 19px;
+    margin-left: 25px;
   }
   body .form {
-    width: unset;
-    margin-left: unset;
-    height: 780px;
-    margin-top: 111px;
-    padding: 38px 60px;
+    width: auto;
+    margin-left: 25px;
+    margin-right: 25px;
+    height: 345px;
+    margin-top: 37px;
+    padding: 0 25px;
   }
   body .form .title {
-    background: url("../images/JAGUARLANDROVER@3x.png");
-    width: 653px;
-    height: 42px;
-    margin-top: 48px;
+    background: url("../images/JAGUARLANDROVER@3x.png") no-repeat center;
+    width: 100%;
+    height: 14px;
+    margin-top: 24px;
+    background-size: 218px 14px;
   }
   body .form input {
-    font-size: 48px;
+    font-size: 15px;
   }
   body .form .number {
-    margin-top: 102px;
+    margin-top: 45px;
   }
   body .form .code {
-    margin: 48px 0 24px 0;
+    margin: 16px 0 0 0;
   }
   body .form .code > button {
-    width: 200px;
-    height: 70px;
-    font-size: 48px;
+    width: 100px;
+    height: 35px;
+    font-size: 15px;
   }
   body .form .login {
-    margin-top: 78px;
-    font-size: 54px;
-    height: 120px;
+    margin-top: 39px;
+    font-size: 16px;
+    height: 45px;
   }
   body .form .description {
-    margin-top: 24px;
-    font-size: 38px;
+    margin-top: 12px;
+    font-size: 14px;
     line-height: 1.2;
-    padding: 0 28px;
+    padding: 0 4px;
   }
   body button {
     border-radius: 0;
