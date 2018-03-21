@@ -3,21 +3,20 @@
  * auth: XuQiang
 **/
 
-@font-face {
-  font-family: PingFang-SC-Light;
-  src: url("../font-size/PingFangLight.ttf");
-}
-
+//@font-face {
+//  font-family: PingFang-SC-Light;
+//  src: url("../font-size/PingFangLight.ttf");
+//}
 
 body {
   padding: 0;
   margin: 0;
   height: 100vh;
-  background: url("../images/bg_pc.png") no-repeat;
-  background-size: 100% 100%;
+  background: url("../images/bg_pc.png") center top no-repeat;
+  background-size: cover;
   display: flex;
   flex-direction: column;
-  font-family: PingFang-SC-Light;
+  //font-family: PingFang-SC-Light;
 
   .logo {
     margin-left: 200px;
@@ -113,8 +112,8 @@ body {
 
 @media screen and (max-width: 1024px) {
   body {
-    background: url("../images/bg_phone@3x.png") no-repeat;
-    background-size: 100%;
+    background: url("../images/bg_phone@3x.png") center top no-repeat;
+    background-size: cover;
     height: 100%;
     display: flex;
     flex-direction: column;
