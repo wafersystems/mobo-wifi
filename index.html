@@ -12,16 +12,24 @@
 <div class="form">
     <div class="title"></div>
     <form>
-        <input placeholder="Phone Number" class="number" type="tel"/>
-        <hr/>
-        <div class="code">
-            <input placeholder="Code"/>
+        <div class="phone">
+            <span class="phoneIcon" style="background-size: 115%"></span>
+            <input placeholder="Phone Number" class="number" type="tel" maxlength="20" />
             <button>Send</button>
         </div>
         <hr/>
+        <div class="code">
+            <span class="codeIcon" style="background-size: 100%"></span>
+            <input placeholder="Code" maxlength="20"/>
+        </div>
+        <hr/>
+        <div class="info">
+            <input type="checkbox" class="accept">
+            By checking the box, you have given consent for JLR to collect your phone number and phone MAC address,
+            which will be used for accessing JLR GUEST wifi purpose only and will not be used or shared for other purpose or outside of JLR.
+        </div>
         <button class="login" type="submit">Login</button>
     </form>
-    <span class="description">This wi-fi can be used by 9:00 - 18:00 during working hours.</span>
 </div>
 </body>
 </html>
